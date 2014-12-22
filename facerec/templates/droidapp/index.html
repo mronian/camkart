@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+{% load static %} <!-- New line -->
+
+<html>
+
+    <head>
+        <title>Droid App</title>
+    </head>
+
+    <body>
+        <h1>Header 1</h1>
+        hello world! <strong>{{ boldmessage }}</strong><br />
+        {% if categories %}
+            <ul>
+                {% for category in categories %}
+                <li><a href="/droidapp/category/{{ category.slug }}">{{ category.name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% else %}
+        	<strong>There are no categories present.</strong>
+        {% endif %}
+        <a href="/droidapp/add_category/">Add a New Category</a><br />
+        <a href="/droidapp/about/">About</a><br />
+        <img src="{% static "images/app_shot.png" %}" alt="testPic" /> <!-- New line -->
+    </body>
+
+</html>
+
