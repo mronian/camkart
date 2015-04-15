@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/Navelkars/Desktop/facerec/env"
+set -gx VIRTUAL_ENV "/media/jarvis/3f1992c9-0319-440e-934f-45f91c9c9107/home/jarvis/Documents/Repositories/facerec/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

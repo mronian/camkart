@@ -7,7 +7,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/Navelkars/Desktop/facerec/env"
+setenv VIRTUAL_ENV "/media/jarvis/3f1992c9-0319-440e-934f-45f91c9c9107/home/jarvis/Documents/Repositories/facerec/env"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

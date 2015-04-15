@@ -1,0 +1,58 @@
+.card-track {
+    width:100%;
+    height: auto;
+    position:relative;
+    text-align: center;
+}
+.card {
+    width: 466px;
+    margin: 15px;
+    background-color:white;
+    border-radius: 4px;
+    display:inline-flex;
+    text-align: left;
+}
+.card-color {
+    width:466px;
+    height: 96px;
+    background-size: 50px 50px;
+    background-color: #2F2258;
+    /*background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
+    behavior: url(/pie/PIE.htc);*/
+    position:absolute;
+    border-radius: 14px 14px 0px 0px;
+}
+.card-icon {
+    height: 46px;
+    width:46px;
+    margin: 25px;
+    float:left;
+}
+
+.card-icon-img {
+    max-height: 48px;
+    height: auto;
+    -webkit-filter: invert(100%);
+}
+.card-content-icon-img {
+    max-height: 50px;
+    height: auto;
+    -webkit-filter: opacity(55%);
+}
+.card-color-title {
+    margin:27px;
+    color:#FFFFFF;
+}
+.card-content {
+    padding:100px 30px 20px 30px;
+    color:#000000;
+}
+.card-content-icon {
+    float:left;
+    width:60px;
+    height:60px;
+    margin:120px 0px 0px 24px;
+}

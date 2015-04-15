@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | E-Shopper</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/card.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+
+	<div class="pull-left">
+		<section>
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-sm-3">
+						<div class="left-sidebar">
+							<div class="price-range"><!--price-range-->
+								<h2>Price Range</h2>
+								<div class="well text-center">
+									 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="40000" data-slider-step="5" data-slider-value="[0,10000]" id="filter_price" ><br />
+									 <br><b class="pull-left">&#x20B9; 0</b> <b class="pull-right">&#x20B9; 40000</b>
+								</div>
+							</div><!--/price-range-->
+
+							<div class="price-range"><!--price-range-->
+								<h2>Rating</h2>
+								<div class="well text-center">
+									 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="5" data-slider-step="0.1" data-slider-value="[0,5]" id="filter_rating" ><br />
+									 <br><b class="pull-left">0</b> <b class="pull-right">5</b>
+								</div>
+							</div><!--/price-range-->
+
+							<div class="price-range"><!--price-range-->
+								<h2>Number Rating</h2>
+								<div class="well text-center">
+									 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="4000" data-slider-step="100" data-slider-value="[0,10000]" id="filter_num_rating" ><br />
+									 <br><b class="pull-left">0</b> <b class="pull-right">10,000</b>
+								</div>
+							</div><!--/price-range-->
+
+							<div class="price-range"><!--price-range-->
+								<h2>Sentiment Score</h2>
+								<div class="well text-center">
+									 <input type="text" class="span2" value="" data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="[0,10]" id="filter_sentiment_score" ><br />
+									 <br><b class="pull-left">0</b> <b class="pull-right">10</b>
+								</div>
+							</div><!--/price-range-->
+						</div>
+					</div>
+
+					<div class="col-lg-7" style="margin-top:3%;">
+					  	<div>
+						  	<div class="input-group" style="margin-left:140px; width:100%; height:100%;">
+						    	<div class="row">
+							    	<div class="col-lg-4" style="width:65%; height:100%;"><input type="text" class="form-control" placeholder="Search"></div>
+							    	<!-- <div class="col-lg-2"style="width:20%; height:100%;"></div> -->
+							    	<div class="col-lg-4" style="width:35%; height:100%;" title="Sort by"><select class="form-control">
+						  			  <option>Price - Low to High</option>
+						  			  <option>Price - High to Low</option>
+						  			  <option>Rating - Low to High</option>
+						  			  <option>Rating - High to Low</option>
+						  			  <option>SenScore - Low to High</option>
+						  			  <option>SenScore - High to Low</option>
+						  			</select></div>
+					  			</div>
+						    	<span class="input-group-btn">
+						      		<button class="btn btn-default" type="button">Go!</button>
+						    	</span>
+					  		</div><!-- /input-group -->
+						</div>
+
+					  <br>
+
+					  <div class="container" style="width:100%; height:100%;">
+	  	  				<table class="table table-striped" style="text-align:center">
+	  		  			  	<!-- <tr>
+	  		  			  		<th style="text-align:center"> Attribute 1 </th>
+	  		  				  	<th style="text-align:center"> Attribute 2 </th>
+	  		  			  	</tr> -->
+	  		  			  	<tr>
+	  		  			  		<td>
+	  		  			  			<div class="card">
+	  			  			            <table>
+	  			  			            	<tr><td>
+	  			  			            		<span class="card-color">
+	  			  			            		    <!-- <div class="card-icon"><img class="card-icon-img"></div> -->
+	  			  			            		    <h3 class="card-color-title">Nikon L29 Point & Shoot Camera</h3>
+	  			  			            		</span>
+	  			  			            	</td></tr>
+	  			  			            	<tr><td class="card-content">
+	  			  			            		<img src="http://img5a.flixcart.com/image/camera/8/y/k/nikon-nikon-l29-point-shoot-400x400-imadtfth2mzx82kw.jpeg">
+	  			  			            	</td></tr>
+  			  			            		<tr><td>
+  			  			            			<div>
+  			  			            			    <p>One Touch HD 720p Movie Recording, Battery Life of Still Shooting: 200 Shots with Alkaline / 650 Shots with Lithium / 380 Shots with EN-MH2 Batteries, Easy to Hold Handgrip Design, Motion Blur Reduction: Motion Detection (Still Pictures), Smart Portrait System, Easy Auto Mode, Filter Effects</p>
+  			  			            			    <h4><a href="http://www.flipkart.com/nikon-l29-point-shoot-camera/p/itmdt56nhunhjhwy?pid=CAMDTFNNNBGDT8YK&otracker=from-search&srno=t_2&query=nikon&al=WoEJrNIH%2Ff3ADpaiejTbPXQmBzRrVV1xJeApavIMsHKF9BAHhjh2NoaLq2lx4bRfFLwHQxVDMNU%3D&ref=1bb5a6a8-9bee-4991-92c5-e579f444ed92" target="_blank">Go to Flipkart</a></h4>
+  			  			            			</div>
+  			  			            		</td></tr>
+	  			  			            </table>
+	  			  			        </div><!--End Card-->
+	  		  			  		</td>
+	  		  				  	<td>
+	  		  			  			<div class="card">
+	  			  			            <table>
+	  			  			            	<tr><td>
+	  			  			            		<span class="card-color">
+	  			  			            		    <!-- <div class="card-icon"><img class="card-icon-img"></div> -->
+	  			  			            		    <h3 class="card-color-title">Nikon L29 Point & Shoot Camera</h3>
+	  			  			            		</span>
+	  			  			            	</td></tr>
+	  			  			            	<tr><td class="card-content">
+	  			  			            		<img src="http://img6a.flixcart.com/image/camera/u/f/n/nikon-nikon-l29-point-shoot-400x400-imadtftkpzzrvuwx.jpeg">
+	  			  			            	</td></tr>
+  			  			            		<tr><td>
+  			  			            			<div>
+  			  			            			    <p>One Touch HD 720p Movie Recording, Battery Life of Still Shooting: 200 Shots with Alkaline / 650 Shots with Lithium / 380 Shots with EN-MH2 Batteries, Easy to Hold Handgrip Design, Motion Blur Reduction: Motion Detection (Still Pictures), Smart Portrait System, Easy Auto Mode, Filter Effects</p>
+  			  			            			    <h4><a href="http://www.flipkart.com/nikon-l29-point-shoot-camera/p/itmdt56nhunhjhwy?pid=CAMDTFNNNBGDT8YK&otracker=from-search&srno=t_2&query=nikon&al=WoEJrNIH%2Ff3ADpaiejTbPXQmBzRrVV1xJeApavIMsHKF9BAHhjh2NoaLq2lx4bRfFLwHQxVDMNU%3D&ref=1bb5a6a8-9bee-4991-92c5-e579f444ed92" target="_blank">Go to Flipkart</a></h4>
+  			  			            			</div>
+  			  			            		</td></tr>
+	  			  			            </table>
+	  			  			        </div><!--End Card-->
+	  		  			  		</td>
+	  		  				</tr>
+
+	  		  				<tr>
+	  		  			  		<td>
+	  		  			  			<div class="card">
+	  			  			            <table>
+	  			  			            	<tr><td>
+	  			  			            		<span class="card-color">
+	  			  			            		    <!-- <div class="card-icon"><img class="card-icon-img"></div> -->
+	  			  			            		    <h3 class="card-color-title">Nikon L29 Point & Shoot Camera</h3>
+	  			  			            		</span>
+	  			  			            	</td></tr>
+	  			  			            	<tr><td class="card-content">
+	  			  			            		<img src="http://img5a.flixcart.com/image/camera/8/y/k/nikon-nikon-l29-point-shoot-400x400-imadtfth2mzx82kw.jpeg">
+	  			  			            	</td></tr>
+  			  			            		<tr><td>
+  			  			            			<div>
+  			  			            			    <p>One Touch HD 720p Movie Recording, Battery Life of Still Shooting: 200 Shots with Alkaline / 650 Shots with Lithium / 380 Shots with EN-MH2 Batteries, Easy to Hold Handgrip Design, Motion Blur Reduction: Motion Detection (Still Pictures), Smart Portrait System, Easy Auto Mode, Filter Effects</p>
+  			  			            			    <h4><a href="http://www.flipkart.com/nikon-l29-point-shoot-camera/p/itmdt56nhunhjhwy?pid=CAMDTFNNNBGDT8YK&otracker=from-search&srno=t_2&query=nikon&al=WoEJrNIH%2Ff3ADpaiejTbPXQmBzRrVV1xJeApavIMsHKF9BAHhjh2NoaLq2lx4bRfFLwHQxVDMNU%3D&ref=1bb5a6a8-9bee-4991-92c5-e579f444ed92" target="_blank">Go to Flipkart</a></h4>
+  			  			            			</div>
+  			  			            		</td></tr>
+	  			  			            </table>
+	  			  			        </div><!--End Card-->
+	  		  			  		</td>
+	  		  				  	<td>
+	  		  			  			<div class="card">
+	  			  			            <table>
+	  			  			            	<tr><td>
+	  			  			            		<span class="card-color">
+	  			  			            		    <!-- <div class="card-icon"><img class="card-icon-img"></div> -->
+	  			  			            		    <h3 class="card-color-title">Nikon L29 Point & Shoot Camera</h3>
+	  			  			            		</span>
+	  			  			            	</td></tr>
+	  			  			            	<tr><td class="card-content">
+	  			  			            		<img src="http://img6a.flixcart.com/image/camera/u/f/n/nikon-nikon-l29-point-shoot-400x400-imadtftkpzzrvuwx.jpeg">
+	  			  			            	</td></tr>
+  			  			            		<tr><td>
+  			  			            			<div>
+  			  			            			    <p>One Touch HD 720p Movie Recording, Battery Life of Still Shooting: 200 Shots with Alkaline / 650 Shots with Lithium / 380 Shots with EN-MH2 Batteries, Easy to Hold Handgrip Design, Motion Blur Reduction: Motion Detection (Still Pictures), Smart Portrait System, Easy Auto Mode, Filter Effects</p>
+  			  			            			    <h4><a href="http://www.flipkart.com/nikon-l29-point-shoot-camera/p/itmdt56nhunhjhwy?pid=CAMDTFNNNBGDT8YK&otracker=from-search&srno=t_2&query=nikon&al=WoEJrNIH%2Ff3ADpaiejTbPXQmBzRrVV1xJeApavIMsHKF9BAHhjh2NoaLq2lx4bRfFLwHQxVDMNU%3D&ref=1bb5a6a8-9bee-4991-92c5-e579f444ed92" target="_blank">Go to Flipkart</a></h4>
+  			  			            			</div>
+  			  			            		</td></tr>
+	  			  			            </table>
+	  			  			        </div><!--End Card-->
+	  		  			  		</td>
+	  		  				</tr>
+	  	  			  	</table>
+					  </div>
+
+				  	</div><!-- /.col-lg-7 -->
+				</div>
+			</div>
+		</section>
+	</div>
+  
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/price-range.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

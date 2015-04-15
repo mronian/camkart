@@ -1,0 +1,11 @@
+{{object.link}}
+{{object.color}}
+{{object.img_url}}
+{{object.price}}
+{{object.title}}
+{{object.number_of_reviews}}
+{{object.number_of_ratings}}
+{{object.avg_rating}}
+{{object.cameratype}}
+{{object.sentiment_score}}
+{{object.sensor_type}}

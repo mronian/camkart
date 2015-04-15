@@ -1,0 +1,73 @@
+.card-track {
+    width:100%;
+    height: auto;
+    position:relative;
+    text-align: center;
+}
+.card {
+    width: 466px;
+    margin: 15px;
+    background-color:white;
+    border-radius: 4px;
+    display:inline-flex;
+    text-align: left;
+}
+.card-color {
+    width:466px;
+    height: 96px;
+    /*background-color: #FF9800;*/
+    background-size: 50px 50px;
+    background-color: #f90;
+    background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+    -pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
+    behavior: url(/pie/PIE.htc);
+    /*background-color: hsl(34, 53%, 82%);
+    background-image: repeating-linear-gradient(45deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px,                  
+      hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+      hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+      hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+      hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 120px, hsla(197, 62%, 11%, 0.5) 120px, hsla(197, 62%, 11%, 0.5) 140px       
+      ),
+    repeating-linear-gradient(135deg, transparent 5px, hsla(197, 62%, 11%, 0.5) 5px, hsla(197, 62%, 11%, 0.5) 10px, 
+      hsla(5, 53%, 63%, 0) 10px, hsla(5, 53%, 63%, 0) 35px, hsla(5, 53%, 63%, 0.5) 35px, hsla(5, 53%, 63%, 0.5) 40px,
+      hsla(197, 62%, 11%, 0.5) 40px, hsla(197, 62%, 11%, 0.5) 50px, hsla(197, 62%, 11%, 0) 50px, hsla(197, 62%, 11%, 0) 60px,                
+      hsla(5, 53%, 63%, 0.5) 60px, hsla(5, 53%, 63%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 70px, hsla(35, 91%, 65%, 0.5) 80px,
+      hsla(35, 91%, 65%, 0) 80px, hsla(35, 91%, 65%, 0) 90px, hsla(5, 53%, 63%, 0.5) 90px, hsla(5, 53%, 63%, 0.5) 110px,
+      hsla(5, 53%, 63%, 0) 110px, hsla(5, 53%, 63%, 0) 140px, hsla(197, 62%, 11%, 0.5) 140px, hsla(197, 62%, 11%, 0.5) 160px       
+    );*/
+    /*end*/
+    position:absolute;
+    border-radius: 4px 4px 0px 0px;
+}
+.card-icon {
+    height: 46px;
+    width:46px;
+    margin: 25px;
+    float:left;
+}
+
+.card-icon-img {
+    max-height: 48px;
+    height: auto;
+    -webkit-filter: invert(100%);
+}
+.card-content-icon-img {
+    max-height: 50px;
+    height: auto;
+    -webkit-filter: opacity(55%);
+}
+.card-color-title {
+    margin:27px;
+}
+.card-content {
+    padding:100px 30px 20px 30px;
+}
+.card-content-icon {
+    float:left;
+    width:60px;
+    height:60px;
+    margin:120px 0px 0px 24px;
+}
