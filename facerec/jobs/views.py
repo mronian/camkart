@@ -56,7 +56,7 @@ def cameras(request):
 
     else :
     	filteredResults=results
-        priceLow=0
+        priceLow=1
         sentiscoreLow=0.0
         numratLow=0
         avg_ratingLow=0.0

@@ -1,0 +1,151 @@
+ISO Rating
+LCD Display
+Focus Range
+Dimensions
+color
+number_of_ratings
+Total Pixel/Gross Pixel
+LCD Screen Size
+Image Display Resolution
+Video Display Resolution
+Lens Type
+img_url
+Optical Zoom
+Sensor Type
+title
+review
+Warranty Summary
+sentiment_score
+Model ID
+Battery Type
+Additional Features
+type
+Focal Length
+price
+Macro Mode
+number_of_reviews
+link
+Sales Package
+Other Focus Features
+Optical Sensor Resolution (in MegaPixel)
+Processor
+USB Cable
+Weight
+Aperture Range
+avg_rating
+Image Size at Megapixels
+Sensor Format
+Memory Card Type
+Digital Zoom
+Brand
+Other Features
+Focus
+Auto Focus
+Still Image Size 16:9
+Power Supply
+Upgradeable Memory
+Series
+Inbuilt Memory
+Metering Modes
+Shooting Modes
+Continuous Shots
+Other Resolution
+Image Size at Aspect Ratio
+Shutter Speed in other Modes
+Video Format
+Supported Languages
+Audio Formats
+Image Format
+Tripod Socket
+ViewFinder
+Manual Exposure
+Lens Construction
+Other Connectivity Features
+Temperature
+HDMI
+Brightness Adjustment
+Shutter Type
+Exposure Modes
+Viewfinder
+Self Timer
+Humidity
+Exposure Compensation
+Maximum Shutter Speed
+Microphone
+PictBridge
+Metering
+Manual Focus
+Minimum Shutter Speed
+Face Detection
+Dust Reduction
+Not Covered in Warranty
+Audio Video Interface
+Flash Modes
+Red Eye Reduction
+White Balancing
+Built in Flash
+Sync Terminal
+Covered in Warranty
+Warranty Service Type
+External Flash
+Delete Function
+Sensor Size
+Image Sizing
+Color Filter
+Flash Compensation
+Shutter Flash Sync Speed
+Wi-Fi Standard
+other Lens Features
+Lens Servo
+Other Exposure Features
+Wi-Fi Connectivity
+Other Viewfinder Features
+Viewfinder Magnification
+Exposure Meter Coupling
+Light Source
+AE Lock/Exposure Lock
+Exposure Bracketing
+Viewfinder Eye Point
+Weight without Battery
+Other Flash Features
+Scene Modes
+Accessory Shoe
+Maximum Video Length
+Focusing Screen
+Focus Points
+Shutter Release Modes
+Video Compression
+Display Viewing Angle
+Wi-Fi
+Other Display Features
+Headphone Jack
+Wireless Connectivity
+Supported Aspect Ratio
+Picture Angle
+Flash Range
+Operating System
+Battery Life
+Speaker
+Slow Motion
+Other Storage Features
+Focusing Sysetm
+Live View Shooting
+Spot Meter
+Image Stabilizer
+Image Stablizer
+Focus Mode
+Panorama Type
+Maximum Flash Sync
+Inbuilt GPS
+Viewfinder Coverage
+Microphone Terminal
+Maximum Recording Time
+Aperture Modes
+Flash Metering & Control
+Viewfinder Type
+Other Sensor Features
+Remote Control Terminal
+Storage File System
+Recharging Time
+Flash Bracketing
+Viewpoint Dioptric Adjustment
