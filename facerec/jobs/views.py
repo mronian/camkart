@@ -9,6 +9,7 @@ def cameras(request):
     form = CamSearchForm(request.GET)
     results = form.search()
 
+    context_dict={}
     filteredResults = []
     if request.GET:
     	priceLow = int(request.GET['varA'].split(',')[0][1:])
@@ -55,7 +56,25 @@ def cameras(request):
 
     else :
     	filteredResults=results
+        priceLow=0
+        sentiscoreLow=0.0
+        numratLow=0
+        avg_ratingLow=0.0
+        priceHigh=500000
+        numratHigh=1000
+        avg_ratingHigh=5.0
+        sentiscoreHigh=1.0
 
-    return render(request,'base.html', {'results': filteredResults})
+    context_dict['results']=filteredResults
+    context_dict['pL']=priceLow
+    context_dict['pH']=priceHigh
+    context_dict['rL']=avg_ratingLow
+    context_dict['rH']=avg_ratingHigh
+    context_dict['sL']=sentiscoreLow
+    context_dict['sH']=sentiscoreHigh
+    context_dict['nL']=numratLow
+    context_dict['nH']=numratHigh
+
+    return render(request,'base.html', context_dict)
 
     # Create your views here.
