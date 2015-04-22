@@ -1,6 +1,8 @@
 # camkart
 Search Engine for Nikon Cameras
 
+Contributors : Gaurav Kumar, Palash Mittal, Anchit Vidyut Navelkar, Buddha Prakash, Shubham Saxena, Utpal, Sandesh C
+
 ###1. Objectives
 
 Our objective for this project was to build a search system for Nikon Camera which not only provides highly relevant content in response to user’s natural language queries but also provide a ranked list of retrieved products on the basis of the sentiment score of the product reviews (obtained from Flipkart), price and various other features. The search engine should produce various search filters for price, sentiment etc. and provide a simple user friendly interface.
