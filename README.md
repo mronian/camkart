@@ -1,7 +1,7 @@
 # camkart
 Search Engine for Nikon Cameras
 
-Contributors : Gaurav Kumar, Palash Mittal, Anchit Vidyut Navelkar, Buddha Prakash, Shubham Saxena, Utpal, Sandesh C
+Contributors : Gaurav Kumar, Palash Mittal, Anchit Navelkar, Buddha Prakash, Shubham Saxena, Utpal, Sandesh C
 
 ###1. Objectives
 
