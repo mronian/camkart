@@ -1,5 +1,5 @@
-# camkart
-Search Engine for Nikon Cameras
+# Camkart
+A Camera Search Engine build on the Django Framework with Solr in the backend.
 
 Contributors : Gaurav Kumar, Palash Mittal, Anchit Navelkar, Buddha Prakash, Shubham Saxena, Utpal, Sandesh C
 
@@ -9,7 +9,7 @@ Our objective for this project was to build a search system for Nikon Camera whi
 
 ###2. Approach
 
-We crawled the data from Flipkart using Nutch and BeautifulSoup and decided upon a set of metadata which might be used in the indexing.
+We crawled the data from Flipkart.com using Nutch and BeautifulSoup and decided upon a set of metadata which might be used in the indexing.
 We then populated the metadata and created the database of all the products and fed it to solr for Indexing. 
 Sentiment Analysis was performed on the reviews for each product and user friendly interface for queries was implemented using Django Framework.
 
@@ -93,4 +93,3 @@ Natural language queries are supported.
 Features to sort relevant results obtained on the basis of price or rating or sentiment score.
 Filters have been implemented for price, rating, number of ratings that a product obtained and sentiment score.
 Selection of a product redirects user to product page on Flipkart.
-
