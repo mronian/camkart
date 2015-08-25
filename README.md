@@ -1,7 +1,6 @@
 # Camkart
 A Camera Search Engine build on the Django Framework with Solr in the backend.
 
-Contributors : Gaurav Kumar, Palash Mittal, Anchit Navelkar, Buddha Prakash, Shubham Saxena, Utpal, Sandesh C
 
 ###1. Objectives
 
