@@ -1,5 +1,5 @@
 # Camkart
-A Camera Search Engine build on the Django Framework with Solr in the backend.
+A camera search engine built on the Django Framework with Solr in the backend.
 
 
 ###1. Objectives
@@ -9,7 +9,7 @@ Our objective for this project was to build a search system for Nikon Camera whi
 ###2. Approach
 
 We crawled the data from Flipkart.com using Nutch and BeautifulSoup and decided upon a set of metadata which might be used in the indexing.
-We then populated the metadata and created the database of all the products and fed it to solr for Indexing. 
+We then populated the metadata and created the database of all the products and fed it to solr for indexing. 
 Sentiment Analysis was performed on the reviews for each product and user friendly interface for queries was implemented using Django Framework.
 
 ###3. Query Processing Algorithm
