@@ -19,7 +19,7 @@ Twisted-Web==13.2.0
 Unidecode==0.04.17
 WebOb==1.4
 WebTest==2.0.17
-Werkzeug==0.9.6
+Werkzeug==0.15.3
 Whoosh==2.6.0
 adium-theme-ubuntu==0.3.4
 apt-xapian-index==0.45
