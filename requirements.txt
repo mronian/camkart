@@ -116,7 +116,7 @@ pytz==2014.4
 pyxdg==0.25
 reportlab==3.0
 requests==2.4.0
-rsa==3.1.2
+rsa==4.1
 scipy==0.13.3
 sessioninstaller==0.0.0
 simplegeneric==0.8.1
