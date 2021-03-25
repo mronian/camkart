@@ -9,7 +9,7 @@ MySQL-python==1.2.3
 PAM==0.4.2
 Pillow==2.3.0
 PySensors==0.0.3
-PyYAML==3.11
+PyYAML==5.4
 Pygments==2.0.2
 SecretStorage==2.0.0
 SimpleCV==1.3
