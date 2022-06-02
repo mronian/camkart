@@ -63,7 +63,7 @@ duplicity==0.6.23
 enum34==1.0.4
 factory-boy==2.4.1
 flake8==2.2.5
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 ipdb==0.8
 ipython==2.3.0
