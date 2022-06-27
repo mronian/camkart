@@ -114,7 +114,7 @@ python-debian==0.1.21-nmu2ubuntu2
 python-igraph==0.7.1-2
 pytz==2014.4
 pyxdg==0.25
-reportlab==3.0
+reportlab==3.5.55
 requests==2.4.0
 rsa==3.1.2
 scipy==0.13.3
