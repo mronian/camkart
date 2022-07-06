@@ -74,7 +74,7 @@ lazr.restfulclient==0.13.3
 lazr.uri==1.0.3
 libvirt-python==1.2.2
 lockfile==0.8
-lxml==3.3.3
+lxml==4.9.1
 mccabe==0.3
 mock==1.0.1
 mod-python==3.3.1
